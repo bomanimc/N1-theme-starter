@@ -6,19 +6,19 @@
 @toolbar-background-color: darken(@white, 17.5%);
 
 //== Account Sidebar
-@panel-background-color:         @black;
-@source-list-bg:                 @black;
-@source-list-active-bg:          @black;
+@panel-background-color:         @true-black;
+@source-list-bg:                 @true-black;
+@source-list-active-bg:          @true-black;
 @source-list-active-color:       @component-active-color;
 
 //== Thread List (e.g, `.list-group-item`, `.list-item`)
-@list-bg:                  @white;
-@list-border:              #ddd;
-@list-hover-bg:            darken(@list-bg, 4%);
+@list-bg:                  @true-black;
+@list-border:              @xray-blue;
+@list-hover-bg:            @xray-blue-dark;
 @list-focused-color:       @list-bg;
 @list-focused-bg:          @component-active-color;
 @list-focused-border:      @list-focused-bg;
-@list-selected-color:      inherit;
+@list-selected-color:      @white;
 @list-selected-bg:         mix(@component-active-color, @list-bg, 17%);
 @list-selected-border:     mix(@component-active-color, @list-bg, 50%);
 
@@ -46,15 +46,17 @@
 //=============================== Colors ===============================//
 
 //Custon X-ray Colors
-@xray-blue: #afcceb;
+@xray-blue:      #afcceb;
+@xray-blue-dark: #505D6B;
+@true-black: #000000;
 
 //============================//
 
 @accent-primary:      @xray-blue;
 @accent-primary-dark: @xray-blue;
 
-@background-primary:     @white;
-@background-off-primary: #fdfdfd;
+@background-primary:     @true-black;
+@background-off-primary: @xray-blue-dark;
 @background-secondary:   #f6f6f6;
 @background-tertiary:    #6d7987;
 
@@ -79,7 +81,7 @@ rgba(253,253,253,0.75) 100%);
 
 // ----- Colors -----
 @text-color:         @white;
-@text-color-inverse: @black;
+@text-color-inverse: @white;
 
 @text-color-heading: #434648;
 
