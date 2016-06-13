@@ -12,7 +12,7 @@
 @source-list-active-color:       @component-active-color;
 
 //== Thread List (e.g, `.list-group-item`, `.list-item`)
-@list-bg:                  @true-black;
+@list-bg:                  @xray-blue-dark;
 @list-border:              @xray-blue;
 @list-hover-bg:            @xray-blue-dark;
 @list-focused-color:       @list-bg;
@@ -57,8 +57,8 @@
 
 @background-primary:     @true-black;
 @background-off-primary: @xray-blue-dark;
-@background-secondary:   #f6f6f6;
-@background-tertiary:    #6d7987;
+@background-secondary:   @true-black;
+@background-tertiary:    @xray-blue-dark;
 
 @color-info:    @blue-dark;
 @color-success: #5CB346;
@@ -67,21 +67,21 @@
 @color-danger:  #d9534f;
 
 @component-active-color:        @accent-primary-dark;
-@component-active-bg:           @background-primary;
+@component-active-bg:           @white;
 
 @background-gradient: linear-gradient(to top, rgba(241,241,241,0.75) 0%,
 rgba(253,253,253,0.75) 100%);
 
-@border-color-primary: darken(@background-primary, 10%);
-@border-color-secondary: darken(@background-secondary, 10%);
-@border-color-tertiary: darken(@background-tertiary, 10%);
-@border-color-divider: @border-color-secondary;
+@border-color-primary: @xray-blue;
+@border-color-secondary: @xray-blue;
+@border-color-tertiary: @xray-blue;
+@border-color-divider: @xray-blue;
 
 //============================= Typography =============================//
 
 // ----- Colors -----
 @text-color:         @white;
-@text-color-inverse: @white;
+@text-color-inverse: @black;
 
 @text-color-heading: @xray-blue;
 
