@@ -6,9 +6,9 @@
 @toolbar-background-color: darken(@white, 17.5%);
 
 //== Account Sidebar
-@panel-background-color:         @gray-lighter;
-@source-list-bg:                 @panel-background-color;
-@source-list-active-bg:          @panel-background-color;
+@panel-background-color:         @black;
+@source-list-bg:                 @black;
+@source-list-active-bg:          @black;
 @source-list-active-color:       @component-active-color;
 
 //== Thread List (e.g, `.list-group-item`, `.list-item`)
@@ -45,8 +45,13 @@
 
 //=============================== Colors ===============================//
 
-@accent-primary:      @blue;
-@accent-primary-dark: @blue-dark;
+//Custon X-ray Colors
+@xray-blue: #afcceb;
+
+//============================//
+
+@accent-primary:      @xray-blue;
+@accent-primary-dark: @xray-blue;
 
 @background-primary:     @white;
 @background-off-primary: #fdfdfd;
@@ -73,11 +78,11 @@ rgba(253,253,253,0.75) 100%);
 //============================= Typography =============================//
 
 // ----- Colors -----
-@text-color:         @black;
-@text-color-inverse: @white;
+@text-color:         @white;
+@text-color-inverse: @black;
 
 @text-color-heading: #434648;
 
-@text-color-link:        @blue;
+@text-color-link:        @xray-blue;
 @text-color-link-hover:  @blue-dark;
 @text-color-link-active: @blue-dark;
