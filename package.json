@@ -6,6 +6,7 @@
   "version": "0.1.0",
   "description": "A new dark theme for Nylas N1.",
   "license": "GPL-3.0",
+  "styleSheets": ["email-frame"],
   "engines": {
     "nylas": "*"
   },
